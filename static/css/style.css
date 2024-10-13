@@ -3,3 +3,11 @@
     color: #ffffff;
     /* Reemplaza ##005187 con el color que desees */
   }
+
+.custom-navbar a:hover{
+    color: aqua !important; 
+  }
+
+  /*Apartado de estilo para detallesRecetas*/
+
+  /*Fin de apartado*/
