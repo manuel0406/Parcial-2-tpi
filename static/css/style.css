@@ -1,5 +1,14 @@
 .custom-navbar {
-    background-color: #2D2F59;
-    color: #ffffff;
-    /* Reemplaza ##005187 con el color que desees */
+    background-color: #2D2F59; /* Color de fondo personalizado */
+    color: #ffffff; /* Color de texto */
   }
+
+/* Efecto hover */
+.custom-navbar .nav-link:hover {
+  color: #ffd700; /* Cambia el color al pasar el ratón */
+}
+
+/* Ajuste opcional de padding */
+.custom-navbar .navbar {
+  padding: 1rem; /* Ajusta el espaciado */
+}
