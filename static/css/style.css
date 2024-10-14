@@ -8,7 +8,7 @@
     color: aqua !important; 
   }
 
-h1, h2, h3, .enlace-historia{
+.titulo-centrado, .enlace-historia{
   text-align: center;
 }
 
@@ -24,7 +24,7 @@ h1, h2, h3, .enlace-historia{
   padding: 25px 25px 0 25px !important;
   text-align: justify;
 }
-.carousel-item img {
+.imagen-platillo img {
   height: 300px; 
   object-fit: cover; 
 }
