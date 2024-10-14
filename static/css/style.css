@@ -8,6 +8,51 @@
     color: aqua !important; 
   }
 
-  /*Apartado de estilo para detallesRecetas*/
+h1, h2, h3, .enlace-historia{
+  text-align: center;
+}
 
+  /*Apartado de estilo para detallesRecetas*/
+.contenedorDetallesPlatillo, #carouselAutoplaying, .descripcion-platillo{
+  margin-top: 20px !important;
+}
+
+.descripcion-platillo{
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 25px 25px 0 25px !important;
+  text-align: justify;
+}
+.carousel-item img {
+  height: 300px; 
+  object-fit: cover; 
+}
+
+.datos-adicionales{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.descripcion-platillo p a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.utensilios, .ingredientes, .pasos{
+  border: 1px solid black;
+  margin: 30px 10px 0 10px !important;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+
+
+@media screen and (max-width: 412px){
+  .descripcion-platillo{
+    margin-left: 0px;
+  }
+}
   /*Fin de apartado*/
