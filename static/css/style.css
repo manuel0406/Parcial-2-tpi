@@ -12,3 +12,23 @@
 .custom-navbar .navbar {
   padding: 1rem; /* Ajusta el espaciado */
 }
+
+.bg-celeste {
+  background-color: #00aae4; /* Celeste */
+}
+
+.carousel {
+  width: 300px;  /* Ancho del carrusel */
+  height: 200px; /* Altura del carrusel */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+}
+
+.carousel-image {
+  width: 300px; /* Ancho deseado */
+  height: 200px; /* Altura deseada */
+}
+
+.facebook-img {
+  width: 36px; /* Cambia el valor según necesites */
+  height: 36px; /* Mantiene la proporción de la imagen */
+}
