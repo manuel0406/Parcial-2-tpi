@@ -89,10 +89,11 @@
 }
 
 /* Efectos de hover para botones o enlaces (opcional) */
-a {
-    color: #0563F2; /* Color azul vibrante para enlaces */
+/* Color azul vibrante para enlaces */
+/* a {
+    color: #0563F2; 
     text-decoration: none; 
-}
+} */
 
 a:hover {
     text-decoration: underline; /* Subrayado al pasar el mouse */
