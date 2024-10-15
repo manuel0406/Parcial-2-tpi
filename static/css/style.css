@@ -18,17 +18,28 @@
 }
 
 .carousel {
-  width: 300px;  /* Ancho del carrusel */
-  height: 200px; /* Altura del carrusel */
+  width: 508px;  /* Ancho del carrusel */
+  height: 388px; /* Altura del carrusel */
   overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
 }
 
 .carousel-image {
-  width: 300px; /* Ancho deseado */
-  height: 200px; /* Altura deseada */
+  width: 508px; /* Ancho deseado */
+  height: 388px; /* Altura deseada */
+}
+
+.carousel1 {
+  width: 508px;  /* Ancho del carrusel */
+  height: 318px; /* Altura del carrusel */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+}
+
+.carousel-image1 {
+  width: 508px; /* Ancho deseado */
+  height: 318px; /* Altura deseada */
 }
 
 .facebook-img {
-  width: 36px; /* Cambia el valor según necesites */
-  height: 36px; /* Mantiene la proporción de la imagen */
+  width: 32px; /* Cambia el valor según necesites */
+  height: 32px; /* Mantiene la proporción de la imagen */
 }
