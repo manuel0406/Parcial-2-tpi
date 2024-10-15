@@ -5,7 +5,7 @@
   }
 
 .custom-navbar a:hover{
-    color: aqua !important; 
+  color: #c5c5c5 !important;
   }
 
 .titulo-centrado, .enlace-historia{
@@ -48,20 +48,6 @@
   border-radius: 5%;
     /* Reemplaza ##005187 con el color que desees */
   }
-
-/* Contenedor general */
-.container {
-    padding: 30px;
-    font-family: 'Helvetica Neue', Arial, sans-serif; 
-    background-color: #F0F2F2; /* Fondo claro */
-}
-
-/* Espaciado entre filas */
-.row {
-    margin-bottom: 100px; /*  para más espacio entre recetas */
-    display: flex;
-    align-items: center;
-}
 
 /* Estilo de las imágenes */
 .img-receta {
@@ -111,8 +97,6 @@ a {
 a:hover {
     text-decoration: underline; /* Subrayado al pasar el mouse */
 }
-
-
 
 @media screen and (max-width: 412px){
   .descripcion-platillo{
