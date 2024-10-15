@@ -46,6 +46,70 @@
   margin: 30px 10px 0 10px !important;
   padding: 10px;
   border-radius: 5%;
+    /* Reemplaza ##005187 con el color que desees */
+  }
+
+/* Contenedor general */
+.container {
+    padding: 30px;
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+    background-color: #F0F2F2; /* Fondo claro */
+}
+
+/* Espaciado entre filas */
+.row {
+    margin-bottom: 100px; /*  para más espacio entre recetas */
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo de las imágenes */
+.img-receta {
+    width: 100%; /*  para que las imágenes ocupen el 100% del contenedor */
+    height: auto;
+    max-width: 300px; /*  el tamaño máximo de las imágenes */
+    margin-right: 20px; /*  para menos espacio entre imagen y texto */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    transition: transform 0.2s; /* Transición suave para el efecto hover */
+}
+
+.img-receta:hover {
+    transform: scale(1.05); /* Efecto de zoom suave al hacer hover */
+}
+
+/* Estilo del texto */
+.texto-receta {
+    flex: 1;
+    text-align: justify; /* para justificar el texto */
+    color: #393C73; /* Texto en como morado  */
+}
+
+/* Estilo del cuadro que contiene el texto */
+.texto-contenedor {
+    padding: 15px; /*  para más espacio interno */
+    background-color: #FFFFFF; /* Fondo blanco para el cuadro de texto */
+    border: 1px solid #05450A; /* Borde verde oscuro */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*  sombra para efecto de elevación */
+}
+
+/* Ajustes para títulos */
+.titulo-receta {
+    color: #E38349; /* Títulos en color cálido */
+    text-align: center; /* Centra los títulos */
+    margin-bottom: 15px; /* Espacio inferior para los títulos */
+    font-size: 1.5em; /* Tamaño de fuente para títulos ajustado */
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+}
+
+/* Efectos de hover para botones o enlaces (opcional) */
+a {
+    color: #0563F2; /* Color azul vibrante para enlaces */
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
 }
 
 
@@ -56,3 +120,4 @@
   }
 }
   /*Fin de apartado*/
+
