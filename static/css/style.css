@@ -124,26 +124,26 @@ a:hover {
    
 
 /* Efecto hover */
-.custom-navbar .nav-link:hover {
-  color: #ffd700; /* Cambia el color al pasar el ratón */
-}
+/* .custom-navbar .nav-link:hover {
+  color: #ffd700; 
+} */
 
 /* Ajuste opcional de padding */
-.custom-navbar .navbar {
-  padding: 1rem; /* Ajusta el espaciado */
-}
+/* .custom-navbar .navbar {
+  padding: 1rem; 
+} */
 
 .bg-celeste {
   background-color: #00aae4; /* Celeste */
 }
 
-.carousel {
+.carouselR {
   width: 508px;  /* Ancho del carrusel */
   height: 388px; /* Altura del carrusel */
   overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
 }
 
-.carousel-image {
+.carouselR-image {
   width: 508px; /* Ancho deseado */
   height: 388px; /* Altura deseada */
 }
@@ -154,7 +154,7 @@ a:hover {
   overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
 }
 
-.carousel-image1 {
+.carouselR-image1 {
   width: 508px; /* Ancho deseado */
   height: 318px; /* Altura deseada */
 }
