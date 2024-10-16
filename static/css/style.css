@@ -13,7 +13,7 @@
 }
 
 /*para el dato curioso*/
-.lead { 
+.lead-historia { 
     color: #e38349;
     text-align: center; /* Centrar el texto destacado */
     font-weight: bold;
@@ -28,7 +28,7 @@
 }
 
 /* Tarjetas */
-.card {
+.card-historia {
     background-color: #ffffff; /* Color de la tarjeta */
     border: 1px solid #e0e0e0; /* Borde sutil */
     margin-bottom: 3rem; /* Separación entre tarjetas */
@@ -41,7 +41,7 @@
     max-width: 95%; /* ancho del contenedor */
     margin: 20px auto; /* Centrar la tarjeta con márgenes automáticos */
 }
-.card-body {
+.card-body-historia {
     display: flex;
     align-items: center; 
     gap: 20px; /* Espacio entre la imagen y el texto */
@@ -71,14 +71,14 @@
 }
 
 /* Títulos de las tarjetas */
-.card-title {
+.card-title-historia {
     font-size: 2rem; /* Tamaño de fuente más grande */
     color: #05450a; /* Color de título usando la paleta de colores */
     text-transform: uppercase; /* Texto en mayúsculas para más impacto */
 }
 
 /* Texto de las tarjetas */
-.card-text {
+.card-text-historia {
     color: #2D2F59; /* Color principal del texto */
     line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
     margin-top: 10px; /* Espacio superior para separación */
@@ -98,7 +98,7 @@
     font-size: 4.5rem; /* Aumenta el tamaño del icono */
 }
 
-.btn-primary { 
+.btn-primary-historia { 
     background-color: #0583f2; /* Color de fondo */
 }
 
