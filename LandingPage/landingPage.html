@@ -4,21 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SonRikasSv -Landing Page</title>
+    <title>SonRikasSv - Landing Page</title>
     <link rel="stylesheet" href="../static/css/style.css">
-    <!-- Bootstap -->
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="../static/css/bootstrap.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Imagenes/logo.ico">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
         <!-- nav-bar -->
         <nav class="navbar navbar-expand-lg custom-navbar text-white">
-            <div class="container-fluid text-white">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../Imagenes/logo.jpg" alt="Logo" width="50" height="50"
-                        class="d-inline-block align-text-top">
+                    <img src="../Imagenes/logo.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
                 </a>
                 <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -28,20 +28,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-white fs-4" aria-current="page"
-                                href="../../index.html">Inicio</a>
+                            <a class="nav-link text-white fs-5" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white fs-4" aria-current="page"
-                                href="../../Recetas/recetas.html">Recetas</a>
+                            <a class="nav-link text-white fs-5" href="../Recetas/recetas.html">Recetas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white fs-4" aria-current="page"
-                                href="../../Historia/historia.html">Historia</a>
+                            <a class="nav-link text-white fs-5" href="../Historia/historia.html">Historia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white fs-4" aria-current="page"
-                                href="../../Restaurante/restaurante.html">Restaurantes</a>
+                            <a class="nav-link text-white fs-5" href="../Restaurante/restaurante.html">Restaurantes</a>
                         </li>
                     </ul>
                 </div>
@@ -49,53 +45,95 @@
         </nav>
     </header>
 
-    <div class="container mt-5 mb-5">
-        <!-- Aca pueden trabajar -->
-        <div class="text-center justify-content-center">
+    <!-- Contenido principal -->
+    <main class="container mt-5 mb-5 flex-grow-1">
+        <!-- Redes Sociales -->
+        <div class="text-center">
             <div class="bg-light p-5 rounded-3 shadow-sm">
-                <div class="text-justify">
-                    <h1 class="mb-5">¡Siguenos en nuestras deliciosas redes sociales!</h1>
-                </div>
-
-                <div class="card" style="width: 100%; border:1px solid rgba(0, 4, 255, 0.692); background-color:rgba(0, 0, 255, 0.13) ;">
-                    <div class="card-body">
-                        <img src="./logosLanding/facebook.webp" class="card-img-top" style="width: 10%; height: auto;">
-                        <h5 class="card-title">Siguenos en facebook</h5>
-                        <p class="card-text">¡En facebook encontraras recetas, historia y comentarios llenos de tips y
-                            recomendaciones de nuestra comunidad para disfrutar al maximo la gastronomia salvadoreña!
-                        </p>
-                        <a href="#" class="btn btn-primary">Ir</a>
+                <h1 class="mb-5">¡Síguenos en nuestras deliciosas redes sociales!</h1>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <!-- Tarjeta Facebook -->
+                    <div class="col">
+                        <div class="card h-100 border-primary">
+                            <div class="card-body text-center">
+                                <img src="./logosLanding/facebook.webp" alt="Facebook" class="card-img-top mb-3" style="width: 50px; height: auto;">
+                                <h5 class="card-title">Síguenos en Facebook</h5>
+                                <p class="card-text">¡En Facebook encontrarás recetas, historia y comentarios llenos de tips y recomendaciones de nuestra comunidad para disfrutar al máximo la gastronomía salvadoreña!</p>
+                                <a href="#" class="btn btn-primary">Ir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tarjeta X (Twitter) -->
+                    <div class="col">
+                        <div class="card h-100 border-dark">
+                            <div class="card-body text-center">
+                                <img src="./logosLanding/x.webp" alt="X" class="card-img-top mb-3" style="width: 50px; height: auto;">
+                                <h5 class="card-title">Síguenos en X</h5>
+                                <p class="card-text">¡Sigue nuestra cuenta de X y descubre recetas, curiosidades y tips rápidos sobre la gastronomía salvadoreña, además de recomendaciones de nuestra comunidad en cada Tweet!</p>
+                                <a href="#" class="btn btn-dark">Ir</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card mt-2" style=" width: 100%; border:1px solid rgba(0, 0, 0, 0.692); background-color: rgba(0, 0, 0, 0.151);">
-                    <div class="card-body">
-                        <img src="./logosLanding/x.webp" class="card-img-top" style="width: 10%; height: auto;">
-                        <h5 class="card-title">Siguenos en X</h5>
-                        <p class="card-text">¡Sigue nuestra cuenta de X y descubre recetas, curiosidades y tips rapidos
-                            sobre la gastronomia salvadoreña, ademas de recomendaciones de nuestra comunidad en cada
-                            Tweet!</p>
-                        <a href="#" class="btn" style="background-color: rgb(10, 0, 0); color: aliceblue;">Ir</a>
-                    </div>
-                </div>
-
-
             </div>
-
-
-
-
-
-
         </div>
-    </div>
+    </main>
 
-
-    <footer>
-        <!-- Bootstrap -->
-        <script type="text/javascript" src="../../static/js/bootstrap.bundle.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script type="text/javascript" src="../../static/js/popper.min.js"></script>
+    <!-- Footer -->
+    <footer class="footer custom-navbar text-white text-center py-4 mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h5>Sobre SonRikasSv</h5>
+                    <p class="mb-0">Descubre la rica gastronomía salvadoreña a través de nuestras recetas y la historia de platillos emblemáticos.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h5>Síguenos</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" class="text-white" target="_blank" aria-label="Facebook">
+                                <i class="bi bi-facebook fs-5"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.twitter.com" class="text-white fs-5" target="_blank" aria-label="Twitter">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="../LandingPage/landingPage.html" class="text-white"
+                                aria-label="Correo Electrónico">
+                                <i class="bi bi-person-vcard-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-3">
+            <p class="mb-0">&copy; 2024 SonRikasSv. Todos los derechos reservados.</p>
+            <nav>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="../index.html" class="text-white">Inicio</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="../Recetas/recetas.html" class="text-white">Recetas</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="../Historia/historia.html" class="text-white">Historia</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="../Restaurante/restaurante.html" class="text-white">Restaurantes</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="../static/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../static/js/popper.min.js"></script>
 </body>
 
 </html>
