@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /index.html
+Allow: /Historia/historia.html
+Allow: /Recetas/receta.html
+Allow: /Restaurante/restaurante.html
+
+Disallow: /static/
+
+# Especificar el sitemap (si tienes uno)
+#Sitemap: https://sonrikassv.vercel.app/sitemap.xml
+
+
