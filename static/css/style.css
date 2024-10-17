@@ -24,6 +24,7 @@
   padding: 25px 25px 0 25px !important;
   text-align: justify;
 }
+
 .imagen-platillo img {
   height: 300px; 
   object-fit: cover; 
@@ -88,13 +89,6 @@
     font-family: 'Helvetica Neue', Arial, sans-serif; 
 }
 
-/* Efectos de hover para botones o enlaces (opcional) */
-/* Color azul vibrante para enlaces */
-/* a {
-    color: #0563F2; 
-    text-decoration: none; 
-} */
-
 a:hover {
     text-decoration: underline; /* Subrayado al pasar el mouse */
 }
@@ -104,7 +98,7 @@ a:hover {
     margin-left: 0px;
   }
 }
-  /*Fin de apartado*/
+  /*Fin de apartado de detallesRecetas*/
 
   /* Estilo del texto para historia */
 .texto-Ghistoria {
@@ -121,53 +115,39 @@ a:hover {
   font-size: 1.5em;
   font-family: 'Helvetica Neue', Arial, sans-serif; 
 }
-   
-
-/* Efecto hover */
-/* .custom-navbar .nav-link:hover {
-  color: #ffd700; 
-} */
-
-/* Ajuste opcional de padding */
-/* .custom-navbar .navbar {
-  padding: 1rem; 
-} */
 
 .bg-celeste {
   background-color: #00aae4; /* Celeste */
 }
 
 .carouselR {
-  width: 508px;  /* Ancho del carrusel */
-  height: 388px; /* Altura del carrusel */
-  overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+  width: 508px;
+  height: 388px;
+  overflow: hidden;
 }
 
-.carouselR-image {
-  width: 508px; /* Ancho deseado */
+.carouselR-img {
+  width: 530px; /* Ancho deseado */
   height: 388px; /* Altura deseada */
 }
 
-.carousel1 {
-  width: 508px;  /* Ancho del carrusel */
-  height: 318px; /* Altura del carrusel */
-  overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+.carouselR1 {
+  width: 508px;
+  height: 318px;
+  overflow: hidden;
 }
 
-.carouselR-image1 {
-  width: 508px; /* Ancho deseado */
-  height: 318px; /* Altura deseada */
+.carouselR-img1 {
+  max-width: 100%;  /* Asegura que la imagen no sobresalga */
+  height: auto;     /* Mantiene la proporción */
 }
 
-.facebook-img {
+.icono-img {
   width: 32px; /* Cambia el valor según necesites */
   height: 32px; /* Mantiene la proporción de la imagen */
 }
-/* -----Estilos para detalle de historia-------*/
 
-/*body {
-    overflow-x: hidden; /* Evita el scroll horizontal en todo el documento */
-/*}*/
+/* -----Estilos para detalle de historia-------*/
 .h1-title {
     color: #393c73;
 }
@@ -201,6 +181,7 @@ a:hover {
     max-width: 95%; /* ancho del contenedor */
     margin: 20px auto; /* Centrar la tarjeta con márgenes automáticos */
 }
+
 .card-body-historia {
     display: flex;
     align-items: center; 
@@ -223,6 +204,7 @@ a:hover {
     max-width: 400px;
     border-radius: 8px; /* Bordes redondeados */
 }
+
 /* Contenedor del texto */
 .text-container {
     flex: 1; /* Permite que el contenedor de texto se expanda */
@@ -261,6 +243,4 @@ a:hover {
 .btn-primary-historia { 
     background-color: #0583f2; /* Color de fondo */
 }
-
 /*------Fin de estilos para detalle de historia-------*/
-
