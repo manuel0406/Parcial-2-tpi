@@ -88,7 +88,9 @@
     font-size: 1.5em; /* Tamaño de fuente para títulos ajustado */
     font-family: 'Helvetica Neue', Arial, sans-serif; 
 }
-
+.titulo-naranja{
+  color: #E38349 !important; 
+}
 a:hover {
     text-decoration: underline; /* Subrayado al pasar el mouse */
 }
