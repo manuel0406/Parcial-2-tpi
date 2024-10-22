@@ -11,35 +11,35 @@
   
   <!-- Sección de recetas -->
   <url>
-    <loc>https://sonrikassv.vercel.app/recetas.html</loc>
+    <loc>https://sonrikassv.vercel.app/Recetas/recetas.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://sonrikassv.vercel.app/recetas/detallesRecetas/recetaPupusas.html</loc>
+    <loc>https://sonrikassv.vercel.app/Recetas/detallesRecetas/recetaPupusas.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sonrikassv.vercel.app/recetas/detallesRecetas/recetaRiguas.html</loc>
+    <loc>https://sonrikassv.vercel.app/Recetas/detallesRecetas/recetaRiguas.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sonrikassv.vercel.app/recetas/detallesRecetas/recetaTamalesElote.html</loc>
+    <loc>https://sonrikassv.vercel.app/Recetas/detallesRecetas/recetaTamalesElote.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sonrikassv.vercel.app/recetas/detallesRecetas/recetaYucaFrita.html</loc>
+    <loc>https://sonrikassv.vercel.app/Recetas/detallesRecetas/recetaYucaFrita.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -47,35 +47,35 @@
   
   <!-- Sección de historia -->
   <url>
-    <loc>https://sonrikassv.vercel.app/historia.html</loc>
+    <loc>https://sonrikassv.vercel.app/Historia/historia.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://sonrikassv.vercel.app/historia/detalleHistoria/historiaPupusas.html</loc>
+    <loc>https://sonrikassv.vercel.app/Historia/detalleHistoria/historiaPupusas.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://sonrikassv.vercel.app/historia/detalleHistoria/historiaRiguas.html</loc>
+    <loc>https://sonrikassv.vercel.app/Historia/detalleHistoria/historiaRiguas.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sonrikassv.vercel.app/historia/detalleHistoria/historiaTamalesElote.html</loc>
+    <loc>https://sonrikassv.vercel.app/Historia/detalleHistoria/historiaTamalesElote.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sonrikassv.vercel.app/historia/detalleHistoria/historiaYucaFrita.html</loc>
+    <loc>https://sonrikassv.vercel.app/Historia/detalleHistoria/historiaYucaFrita.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -83,7 +83,7 @@
   
   <!-- Sección de restaurantes -->
   <url>
-    <loc>https://sonrikassv.vercel.app/restaurante/restaurante.html</loc>
+    <loc>https://sonrikassv.vercel.app/Restaurante/restaurante.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -91,7 +91,7 @@
   
   <!-- Landing page -->
   <url>
-    <loc>https://sonrikassv.vercel.app/landingPage/landing.html</loc>
+    <loc>https://sonrikassv.vercel.app/LandingPage/landing.html</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
